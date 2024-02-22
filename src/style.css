@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Birds.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+.hello {
+    color: red;
+  }
+
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+
+button, h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 88px;
+    color: red;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+#content, .contentHome{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+h2{
+    font-size: 80px;
+    font-weight: 800;
+    color: blueviolet;
+}
+
+
+
+.intro{
+    width: 350px;
+    color: orange;
+    font-size: 20px;
+    font-family: 'MyFont';
+}
+
+.photo{
+    width: 600px;
+    height: 400px;
+    background: url('./images.jpeg');
+    background-size: cover;
+}
+
+.intro, .photo{
+    margin: 20px;
+}
+
+
+li{
+    margin-top: 5px;
+    list-style: none;
+    color: blue;
+}
+
